@@ -3,6 +3,7 @@ import confuse1 from "../Assets/Webp/confuse-1.webp";
 import confuse2 from "../Assets/Webp/confuse-2.webp";
 import confuse3 from "../Assets/Webp/confuse-3.webp";
 import ellp1 from "../Assets/Svg/confused-arrow.svg";
+import arrow from "../Assets/Svg/arrowline.svg";
 
 const Confused = () => {
   return (
@@ -60,10 +61,15 @@ const Confused = () => {
                 />
               </div>
             </div>
-            <p className="fs-18 mt_10 fw-bold lh-26 mb-0 off-white-e4 ff-jost">
-              Master
-              <br /> <span> Full-Stack Coding Skills</span>
-            </p>
+            <div className="d-flex gap-2 align-items-center">
+              <p className="fs-18 mt_10 fw-bold lh-26 mb-md-0 off-white-e4 mb_20 ff-jost">
+                Master
+                <br /> <span> Full-Stack Coding Skills</span>
+              </p>
+              <div>
+                <img src={arrow} alt="arrow" />
+              </div>
+            </div>
           </div>
           <div data-aos="zoom-in" className="confuse-card  overflow-hidden">
             <div className="d-flex justify-content-between">
@@ -82,11 +88,16 @@ const Confused = () => {
                   alt="crd-img"
                 />
               </div>
+            </div>{" "}
+            <div className="d-flex gap-2 align-items-end">
+              <p className="fs-18 fw-bold lh-26 mb-0 off-white-e4 ff-jost">
+                Build a
+                <br /> <span> Standout Portfolio</span>
+              </p>{" "}
+              <div className="mb-1">
+                <img src={arrow} alt="arrow" />
+              </div>
             </div>
-            <p className="fs-18 fw-bold lh-26 mb-0 off-white-e4 ff-jost">
-              Master
-              <br /> <span> Full-Stack Coding Skills</span>
-            </p>
           </div>
           <div data-aos="zoom-in" className="confuse-card  overflow-hidden">
             <div className="d-flex mt-2 justify-content-between">
@@ -105,11 +116,16 @@ const Confused = () => {
                   alt="crd-img"
                 />
               </div>
+            </div>{" "}
+            <div className="d-flex gap-2 align-items-end">
+              <p className="fs-18 fw-bold lh-26 mb-0 off-white-e4 ff-jost">
+                Launch
+                <br /> <span> Your Tech Career</span>
+              </p>{" "}
+              <div className="mb-1">
+                <img src={arrow} alt="arrow" />
+              </div>
             </div>
-            <p className="fs-18 fw-bold lh-26 mb-0 off-white-e4 ff-jost">
-              Master
-              <br /> <span> Full-Stack Coding Skills</span>
-            </p>
           </div>
         </div>
       </div>

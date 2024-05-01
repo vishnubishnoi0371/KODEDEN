@@ -279,7 +279,7 @@ const MySwiper = () => {
         >
           <SameBtn />
         </div>
-        <button className="swiper-button-next d-sm-flex align-items-center justify-content-center d-none ">
+        <button className="swiper-button-next pb-5 pb-lg-0 d-sm-flex align-items-center justify-content-center d-none ">
           <Nxtarrow />
         </button>
       </div>

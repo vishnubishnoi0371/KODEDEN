@@ -17,7 +17,7 @@ const SixMonth = () => {
         <div>
           <p
             data-aos="zoom-in"
-            className="fs-24 lh-31 ff-jost fw-semibold pt-20 mb-10 mw-500 text-center text-white mx-auto"
+            className="fs-24 lh-31 ff-jost text-uppercase fw-semibold pt-20 mb-10 mw-500 text-center text-white mx-auto"
           >
             Become a <span className="text-gr">Software</span> Engineer Now!
           </p>

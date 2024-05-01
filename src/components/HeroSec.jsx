@@ -23,55 +23,55 @@ const HeroSec = () => {
               nav ? "left_0" : "left-0"
             } d-flex flex-column  list_style justify-content-center    align-items-center   flex-md-row gap-32 mb-0 ps-0 my_nav`}
           >
-            <li className="">
+            <li className="underline-hover">
               <a
                 href="#home"
                 onClick={setopen}
-                className="underline-hover text-decoration-none lh-23 fs-16 fw-medium off-white-a2 ff-jost nav-head"
+                className=" text-decoration-none position-reative lh-23 fs-16 fw-medium off-white-a2 ff-jost "
               >
                 Home
               </a>
             </li>
-            <li className="">
+            <li className="underline-hover">
               <a
                 href="#about"
                 onClick={setopen}
-                className="underline-hover text-decoration-none lh-23 fs-16 fw-medium off-white-a2 ff-jost nav-head"
+                className=" text-decoration-none position-reative lh-23 fs-16 fw-medium off-white-a2 ff-jost "
               >
                 About
               </a>
             </li>
-            <li className="">
+            <li className="underline-hover">
               <a
                 href="#program"
                 onClick={setopen}
-                className="underline-hover text-decoration-none lh-23 fs-16 fw-medium  off-white-a2 ff-jost nav-head"
+                className=" text-decoration-none position-reative lh-23 fs-16 fw-medium  off-white-a2 ff-jost "
               >
                 Program
               </a>
             </li>
-            <li className="">
+            <li className="underline-hover">
               <a
                 href="#work"
                 onClick={setopen}
-                className="underline-hover text-decoration-none lh-23 fs-16 fw-medium  off-white-a2 ff-jost nav-head"
+                className=" text-decoration-none position-reative lh-23 fs-16 fw-medium  off-white-a2 ff-jost "
               >
                 How it works
               </a>
             </li>
 
-            <li className="">
+            <li className="underline-hover">
               <a
                 href="#faq"
                 onClick={setopen}
-                className="text-decoration-none underline-hover lh-23 fs-16 fw-medium off-white-a2 ff-jost nav-head"
+                className="text-decoration-none position-reative  lh-23 fs-16 fw-medium off-white-a2 ff-jost "
               >
                 FAQs
               </a>
             </li>
           </ul>
 
-          <div className="">
+          <div>
             <button className="d-flex main_btn align-items-center">
               <span className=" fs-14 ff-jost fw-black off-white-f4">
                 Get Started{" "}
@@ -96,7 +96,7 @@ const HeroSec = () => {
         <div id="home">
           <h1
             data-aos="zoom-in"
-            className="lh-41 mw_1000 text-center mx-auto pt-78 mb-20 fs-36 fw-semibold ff-jost text-white"
+            className="lh-41 mw_1000 text-center mx-auto  text-uppercase pt-78 mb-20 fs-36 fw-semibold ff-jost text-white"
           >
             Start the Mini-Course:{" "}
             <span className="text-gr">
@@ -105,13 +105,13 @@ const HeroSec = () => {
           </h1>
           <p
             data-aos="zoom-in"
-            className="fs-24 lh-31 ff-jost fw-semibold mb-28 mw-500 text-center text-white mx-auto"
+            className="fs-24 lh-31 ff-jost fw-semibold  text-uppercase mb-28 mw-564 text-center text-white mx-auto"
           >
             Learn All The Skills You Need To Become a Software Engineer!
           </p>
           <img
             data-aos="zoom-in"
-            className="w-100 hero-img"
+            className="w-100 mb-3 hero-img"
             src={hero}
             alt=""
           />

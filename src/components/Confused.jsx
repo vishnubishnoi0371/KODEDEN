@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import confuse1 from "../Assets/Webp/confuse-1.webp";
 import confuse2 from "../Assets/Webp/confuse-2.webp";
 import confuse3 from "../Assets/Webp/confuse-3.webp";
@@ -15,7 +14,7 @@ const Confused = () => {
         data-aos="zoom-in"
         className="position-absolute confuse-elp-1"
         src={ellp1}
-        alt=""
+        alt="elp1"
       />
 
       <div id="team" className="container pb-lg-130">
@@ -57,7 +56,7 @@ const Confused = () => {
                 <img
                   className="confused-img mt_5"
                   src={confuse1}
-                  alt="crd-img"
+                  alt="crd-img-2"
                 />
               </div>
             </div>
@@ -80,12 +79,12 @@ const Confused = () => {
                 <img
                   className="confused-img2 position-absolute confuse_img_set2  mt_5"
                   src={confuse2}
-                  alt="crd-img"
+                  alt="crd-img-3"
                 />
                 <img
                   className="confused-img2 pt-3"
                   src={confuse2}
-                  alt="crd-img"
+                  alt="crd-img-4"
                 />
               </div>
             </div>{" "}
@@ -95,7 +94,7 @@ const Confused = () => {
                 <br /> <span> Standout Portfolio</span>
               </p>{" "}
               <div className="mb-1">
-                <img src={arrow} alt="arrow" />
+                <img src={arrow} alt="arrow2" />
               </div>
             </div>
           </div>
@@ -108,12 +107,12 @@ const Confused = () => {
                 <img
                   className="confused-img3 position-absolute confuse_img_set3  mt_5"
                   src={confuse3}
-                  alt="crd-img"
+                  alt="crd-img5"
                 />
                 <img
                   className="confused-img3 mt_5"
                   src={confuse3}
-                  alt="crd-img"
+                  alt="crd-img6"
                 />
               </div>
             </div>{" "}
@@ -123,7 +122,7 @@ const Confused = () => {
                 <br /> <span> Your Tech Career</span>
               </p>{" "}
               <div className="mb-1">
-                <img src={arrow} alt="arrow" />
+                <img src={arrow} alt="arrow3" />
               </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ const Whoare = () => {
         data-aos="zoom-in"
         className="position-absolute who-elp-1"
         src={ellp1}
-        alt=""
+        alt="elpsone"
       />
 
       <div className="container">
@@ -29,7 +29,7 @@ const Whoare = () => {
               MEET YOUR INSTRUCTORS
             </p>
             <p className="fs-30 fw-medium text-center text-lg-start mx-auto mx-lg-0 ff-jost lh-41 off-white-e4 mb-3 mw-350">
-              Hi, We’re Kody Doherty and Kolton Starr 👋{" "}
+              Hi, We’re Kody Doherty And Kolton Starr 👋
             </p>
             <p className="fs-16 fw-normal text-center text-lg-start mx-auto mx-lg-0 ff-jost lh-25   off-white-c6 mb-3">
               And we know firsthand that building a career as a software
@@ -37,7 +37,7 @@ const Whoare = () => {
               <br /> We started where you are *right now*—without engineering
               degrees, a professional portfolio, or years of experience.
               <br /> Then we climbed the ranks to hold senior positions at tech
-              titans like Amazon, Apple, and the US government. <br />{" "}
+              titans like Amazon, Apple, and the US government. <br />
               Throughout our careers, we’ve managed program budgets entire teams
               of engineers, directed $30 million program budgets, and built 2
               successful tech startups (one that we sold).

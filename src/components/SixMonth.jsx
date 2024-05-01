@@ -10,7 +10,7 @@ const SixMonth = () => {
         data-aos="zoom-in"
         className="position-absolute six-month-elp-1"
         src={ellp1}
-        alt=""
+        alt="eps1"
       />
 
       <div className="container">
@@ -74,7 +74,7 @@ const SixMonth = () => {
             </div>
           </div>
           <div data-aos="zoom-in">
-            <img className="man-img" src={man} alt="" />
+            <img className="man-img" src={man} alt="man" />
           </div>
         </div>
       </div>

@@ -18,6 +18,7 @@ const Backtotop = () => {
       {backtotop ? (
         <button
           onClick={runTop}
+          aria-label="back top"
           className=" position-fixed back_top   d-flex align-items-center justify-content-center  me-2 mb-2 pointer"
         >
           <svg

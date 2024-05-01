@@ -10,7 +10,7 @@ const KodedenDog = () => {
         data-aos="zoom-in"
         className="position-absolute kode-elp-1"
         src={ellp1}
-        alt=""
+        alt="elpse1"
       />
 
       <div className="container">

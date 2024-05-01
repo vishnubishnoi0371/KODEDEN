@@ -14,7 +14,7 @@ const HeroSec = () => {
   }
   return (
     <div className="hero-bg position-relative  ">
-      <img className="position-absolute hero-elp-1" src={ellp1} alt="" />
+      <img className="position-absolute hero-elp-1" src={ellp1} alt="ellp1" />
 
       <div className="container">
         <div className="d-flex align-items-center pt-18 justify-content-end gap-26">
@@ -25,6 +25,7 @@ const HeroSec = () => {
           >
             <li className="underline-hover">
               <a
+              aria-label="home"
                 href="#home"
                 onClick={setopen}
                 className=" text-decoration-none position-reative lh-23 fs-16 fw-medium off-white-a2 ff-jost "
@@ -34,6 +35,7 @@ const HeroSec = () => {
             </li>
             <li className="underline-hover">
               <a
+              aria-label="about"
                 href="#about"
                 onClick={setopen}
                 className=" text-decoration-none position-reative lh-23 fs-16 fw-medium off-white-a2 ff-jost "
@@ -43,6 +45,7 @@ const HeroSec = () => {
             </li>
             <li className="underline-hover">
               <a
+              aria-label="program"
                 href="#program"
                 onClick={setopen}
                 className=" text-decoration-none position-reative lh-23 fs-16 fw-medium  off-white-a2 ff-jost "
@@ -52,6 +55,7 @@ const HeroSec = () => {
             </li>
             <li className="underline-hover">
               <a
+              aria-label="work"
                 href="#work"
                 onClick={setopen}
                 className=" text-decoration-none position-reative lh-23 fs-16 fw-medium  off-white-a2 ff-jost "
@@ -62,6 +66,7 @@ const HeroSec = () => {
 
             <li className="underline-hover">
               <a
+              aria-label="faq"
                 href="#faq"
                 onClick={setopen}
                 className="text-decoration-none position-reative  lh-23 fs-16 fw-medium off-white-a2 ff-jost "
@@ -72,7 +77,7 @@ const HeroSec = () => {
           </ul>
 
           <div>
-            <button className="d-flex main_btn align-items-center">
+            <button aria-label="started" className="d-flex main_btn align-items-center">
               <span className=" fs-14 ff-jost fw-black off-white-f4">
                 Get Started{" "}
               </span>
@@ -113,7 +118,7 @@ const HeroSec = () => {
             data-aos="zoom-in"
             className="w-100 mb-3 hero-img"
             src={hero}
-            alt=""
+            alt="hero-img"
           />
         </div>
       </div>

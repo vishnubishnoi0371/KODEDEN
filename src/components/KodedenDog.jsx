@@ -12,7 +12,6 @@ const KodedenDog = () => {
         src={ellp1}
         alt="elpse1"
       />
-
       <div className="container">
         <div className="row flex-column-reverse flex-lg-row justify-content-center align-items-center justify-content-lg-between">
           <div data-aos="zoom-in" className="col-lg-6">

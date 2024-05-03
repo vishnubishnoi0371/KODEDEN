@@ -28,7 +28,7 @@ const HeroSec = () => {
               aria-label="home"
                 href="#home"
                 onClick={setopen}
-                className=" text-decoration-none position-reative lh-23 fs-16 fw-medium off-white-a2 ff-jost "
+                className=" text-decoration-none position-reative lh-23 fs-16 fw-medium off-white-a2 ff-jost nav-head"
               >
                 Home
               </a>
@@ -38,7 +38,7 @@ const HeroSec = () => {
               aria-label="about"
                 href="#about"
                 onClick={setopen}
-                className=" text-decoration-none position-reative lh-23 fs-16 fw-medium off-white-a2 ff-jost "
+                className=" text-decoration-none position-reative lh-23 fs-16 fw-medium off-white-a2 ff-jost nav-head"
               >
                 About
               </a>
@@ -48,7 +48,7 @@ const HeroSec = () => {
               aria-label="program"
                 href="#program"
                 onClick={setopen}
-                className=" text-decoration-none position-reative lh-23 fs-16 fw-medium  off-white-a2 ff-jost "
+                className=" text-decoration-none position-reative lh-23 fs-16 fw-medium  off-white-a2 ff-jost nav-head"
               >
                 Program
               </a>
@@ -58,7 +58,7 @@ const HeroSec = () => {
               aria-label="work"
                 href="#work"
                 onClick={setopen}
-                className=" text-decoration-none position-reative lh-23 fs-16 fw-medium  off-white-a2 ff-jost "
+                className=" text-decoration-none position-reative lh-23 fs-16 fw-medium  off-white-a2 ff-jost nav-head"
               >
                 How it works
               </a>
@@ -69,7 +69,7 @@ const HeroSec = () => {
               aria-label="faq"
                 href="#faq"
                 onClick={setopen}
-                className="text-decoration-none position-reative  lh-23 fs-16 fw-medium off-white-a2 ff-jost "
+                className="text-decoration-none position-reative  lh-23 fs-16 fw-medium off-white-a2 ff-jost nav-head"
               >
                 FAQs
               </a>

@@ -5,7 +5,7 @@ import swipe1 from "../Assets/Svg/swipe1.svg";
 import swipe2 from "../Assets/Svg/swipe2.svg";
 import swipe3 from "../Assets/Svg/swipe3.svg";
 import din from "../Assets/Svg/in.svg";
-import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -35,7 +35,7 @@ const MySwiper = () => {
 
         <Swiper
           className="mx-auto w-100 "
-          modules={[Navigation, Pagination]}
+          
           spaceBetween={24}
           slidesPerView={3}
           loop={true}
@@ -45,15 +45,25 @@ const MySwiper = () => {
           }}
           pagination={false}
           scrollbar={{ draggable: true }}
-          autoplay={{ delay: 2000, disableOnInteraction: false }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
+          modules={[Navigation, Pagination, Autoplay]}
+
+          autoplay
           breakpoints={{
             320: {
               slidesPerView: 1,
+              autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+              },
             },
             500: {
               slidesPerView: 1.5,
+              autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+              },
             },
             768: {
               slidesPerView: 2,

@@ -47,7 +47,7 @@ const Confused = () => {
               <p className="fs-30 fw-semibold ff-jost text-end d-flex align-items-end  off-white-a2 lh-47 mb-4">
                 01
               </p>
-              <div className=" position-relative">
+              <div className=" position-relative ">
                 <img
                   className="confused-img position-absolute confuse_img_set  mt_5"
                   src={confuse1}
@@ -65,7 +65,7 @@ const Confused = () => {
                 Master
                 <br /> <span> Full-Stack Coding Skills</span>
               </p>
-              <div>
+              <div className="mt-3 mt-md-0">
                 <img src={arrow} alt="arrow" />
               </div>
             </div>

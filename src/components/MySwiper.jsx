@@ -35,7 +35,6 @@ const MySwiper = () => {
 
         <Swiper
           className="mx-auto w-100 "
-          
           spaceBetween={24}
           slidesPerView={3}
           loop={true}
@@ -48,7 +47,6 @@ const MySwiper = () => {
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
           modules={[Navigation, Pagination, Autoplay]}
-
           autoplay
           breakpoints={{
             320: {
@@ -132,10 +130,10 @@ const MySwiper = () => {
                   <img src={swipe2} alt="swipeimg3" />
                   <div>
                     <p className="fs-20 fw-normal ff-jost lh-28 text-white mb-0">
-                      Ross O’Rourke
+                      Luke O’Malley
                     </p>
                     <p className="fs-14 fw-normal ff-jost lh-20  off-white-c6 mb-0">
-                      @Ross O’Rourke
+                      Luke O’Malley
                     </p>
                   </div>
                 </div>
@@ -165,10 +163,10 @@ const MySwiper = () => {
                   <img src={swipe3} alt="swipeimg5" />
                   <div>
                     <p className="fs-20 fw-normal ff-jost lh-28 text-white mb-0">
-                      Ross O’Rourke
+                      Leslie Sage
                     </p>
                     <p className="fs-14 fw-normal ff-jost lh-20  off-white-c6 mb-0">
-                      @Ross O’Rourke
+                      Leslie Sage
                     </p>
                   </div>
                 </div>
@@ -231,10 +229,10 @@ const MySwiper = () => {
                   <img src={swipe2} alt="swipeimg9" />
                   <div>
                     <p className="fs-20 fw-normal ff-jost lh-28 text-white mb-0">
-                      Ross O’Rourke
+                      Luke O’Malley
                     </p>
                     <p className="fs-14 fw-normal ff-jost lh-20  off-white-c6 mb-0">
-                      @Ross O’Rourke
+                      Luke O’Malley
                     </p>
                   </div>
                 </div>
@@ -264,10 +262,10 @@ const MySwiper = () => {
                   <img src={swipe3} alt="swipeimg11" />
                   <div>
                     <p className="fs-20 fw-normal ff-jost lh-28 text-white mb-0">
-                      Ross O’Rourke
+                      Leslie Sage
                     </p>
                     <p className="fs-14 fw-normal ff-jost lh-20  off-white-c6 mb-0">
-                      @Ross O’Rourke
+                      Leslie Sage
                     </p>
                   </div>
                 </div>
